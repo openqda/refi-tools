@@ -4,6 +4,7 @@ and hosted on [GitHub](https://github.com/openqda/refi-tools).
 
 ## Standard Specifications
 - [REFI-QDA-1-5.pdf](./standard/REFI-QDA-1-5.pdf)
+- [Architecture overview model](./standard/overview.png)
 
 ## XML Schema Definitions
 - [Codebooks.xsd](./schemas/codebook/v1.0/Codebook.xsd)
