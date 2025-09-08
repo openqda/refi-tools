@@ -2,10 +2,11 @@
 
 Utilities to implement the REFI standard.
 
-## Resources
+https://openqda.github.io/refi-tools/
 
-**XML Schema Definitions**
-Schema definitions are publicly available as raw text via
+## License
 
-- [codebook schema v1.0](https://raw.githubusercontent.com/openqda/refi-tools/refs/heads/main/resources/schemas/codebook/v1.0/Codebook.xsd)
-- [project schema v1.0](https://raw.githubusercontent.com/openqda/refi-tools/refs/heads/main/resources/schemas/project/v1.0/Project.xsd)
+The REFI standard and all its related definitions, concepts, documents and graphics remain licensed under copyright
+by QDA software.org (https://www.qdasoftware.org/).
+
+The software provided by this project is, unless stated otherwise licensed under AGPL 3.0.
