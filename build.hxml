@@ -1,0 +1,17 @@
+--class-path src
+# add the class(es) that you want to include the following way, one per line
+--main REFI
+
+-D analyzer-optimize
+
+# -main Main
+
+--each
+
+# php
+--php bin/php
+
+# js
+--next
+--js bin/js/main.js
+-D js-es=6

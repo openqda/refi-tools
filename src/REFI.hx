@@ -1,0 +1,50 @@
+import loader.QDELoader;
+import models.Project;
+class REFI {
+    static public function main():Void {
+        var qdeContent:String = '<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="urn:QDA-XML:project:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:QDA-XML:project:1.0 http://schema.qdasoftware.org/versions/Project/v1.0/Project.xsd" origin="f4 2025.2.9" name="f4-Projekt">
+    <CodeBook>
+        <Codes>
+            <Code guid="206750b8-d3c8-4bc6-a922-5c8c1475f36f" name="Dies ist ein Test-Code" isCodable="true" color="#044B9B">
+                <Description>Dies ist der Kommentar vom Test-Code</Description>
+                <NoteRef targetGUID="768169b3-d336-4ef3-8060-83bcb776a23d"/>
+            </Code>
+        </Codes>
+    </CodeBook>
+    <Sources>
+        <TextSource guid="333e1cde-f6c3-46c8-98cb-6e92eb1169a1" name="Interview 15mins" plainTextPath="internal://333e1cde-f6c3-46c8-98cb-6e92eb1169a1.txt" richTextPath="internal://333e1cde-f6c3-46c8-98cb-6e92eb1169a1.docx"/>
+        <TextSource guid="fb212a01-b4b5-41ba-bd9f-b66bb210b204" name="Interview 30mins" plainTextPath="internal://fb212a01-b4b5-41ba-bd9f-b66bb210b204.txt" richTextPath="internal://fb212a01-b4b5-41ba-bd9f-b66bb210b204.docx"/>
+        <TextSource guid="834517f4-6e9f-4425-9bdd-a4be2d36e7a0" name="Interview 60mins" plainTextPath="internal://834517f4-6e9f-4425-9bdd-a4be2d36e7a0.txt" richTextPath="internal://834517f4-6e9f-4425-9bdd-a4be2d36e7a0.docx">
+            <PlainTextSelection guid="52c4a374-b094-4322-9543-614df5eee1e3" startPosition="320" endPosition="416">
+                <Coding guid="35febc96-efd3-4431-9dd9-b818ea0198e6">
+                    <CodeRef targetGUID="206750b8-d3c8-4bc6-a922-5c8c1475f36f"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="e4633804-3ab6-4a8f-a6f4-f4e0a5ee1249" startPosition="995" endPosition="1260">
+                <Coding guid="81f73cb1-5190-4c40-9a30-d7e93deadb68">
+                    <CodeRef targetGUID="206750b8-d3c8-4bc6-a922-5c8c1475f36f"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="1b1d9d6c-5e81-40df-b470-7ea8b99573e4" startPosition="603" endPosition="812">
+                <Description>Dies ist ein Memo, angeheftet an ein Text-Snippet (das nicht codiert ist!)</Description>
+                <NoteRef targetGUID="b4352c05-1171-41d9-9d27-401fd25cd8e7"/>
+            </PlainTextSelection>
+            <PlainTextSelection guid="b86192c2-19d1-4ab3-82ce-6086b0054924" startPosition="995" endPosition="1260">
+                <Description>Dies ist ein Memo, angeheftet an ein Text-Snipped (das codiert ist!)</Description>
+                <NoteRef targetGUID="7b5e2e19-bae9-4450-97d0-f548e3e4ec76"/>
+            </PlainTextSelection>
+        </TextSource>
+        <TextSource guid="87c38791-4e98-494a-a0f9-905a813921b4" name="testfile" plainTextPath="internal://87c38791-4e98-494a-a0f9-905a813921b4.txt" richTextPath="internal://87c38791-4e98-494a-a0f9-905a813921b4.docx"/>
+    </Sources>
+    <Notes>
+        <Note guid="768169b3-d336-4ef3-8060-83bcb776a23d" plainTextPath="internal://768169b3-d336-4ef3-8060-83bcb776a23d.txt"/>
+        <Note guid="7b5e2e19-bae9-4450-97d0-f548e3e4ec76" plainTextPath="internal://7b5e2e19-bae9-4450-97d0-f548e3e4ec76.txt"/>
+        <Note guid="b4352c05-1171-41d9-9d27-401fd25cd8e7" plainTextPath="internal://b4352c05-1171-41d9-9d27-401fd25cd8e7.txt"/>
+    </Notes>
+</Project>
+';
+        QDELoader.load(qdeContent);
+        trace("Project loaded successfully");
+    }
+}
