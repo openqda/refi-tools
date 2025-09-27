@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project
+        xmlns="urn:QDA-XML:project:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:QDA-XML:project:1.0 https://openqda.github.io/refi-tools/docs/schemas/project/v1.0/Project.xsd"
+        name="Project 1" description="Description for Project 2" origin="OpenQDA-x.y.z-commit-hash"
+         creatingUserId="27132add-e1f0-4662-89e3-31726035e9d4" creationDateTime="2025-05-22T11:23:02+02:00"
+         modifiedDateTime="2025-08-18T13:07:38+02:00">
+    <Users>
+        <User id="1" guid="27132add-e1f0-4662-89e3-31726035e9d4" name="User 1" email="user1@example.com"/>
+    </Users>
+    <Sources>
+        <TextSource guid="7fdeffe4-8e3f-4eb2-8736-2b4837b9e2c1" name="NewDocument_1755514313194.txt"
+                    plainTextPath="internal://sources/7fdeffe4-8e3f-4eb2-8736-2b4837b9e2c1.txt"
+                    creationDateTime="2025-08-18T12:51:55+02:00" modifiedDateTime="2025-08-18T13:08:51+02:00"
+                    creatingUserId="27132add-e1f0-4662-89e3-31726035e9d4">
+            <PlainTextSelection guid="395a8082-2131-46f4-9d92-0474a0f9e913" startPosition="339" endPosition="347"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-25T12:06:26+02:00"
+                                modifiedDateTime="2025-08-25T12:06:26+02:00">
+                <Coding guid="0eab1eac-fa7c-4876-b81d-e3f0b5ff642e" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-25T12:06:26+02:00">
+                    <CodeRef targetGUID="9fa9c0e3-fb45-4784-ad60-aee6a88701cd"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="6505f599-a3d9-4b13-8c9a-921e5d65af03" startPosition="335" endPosition="514"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-25T12:06:23+02:00"
+                                modifiedDateTime="2025-08-25T12:06:23+02:00">
+                <Coding guid="3bfed4cb-2260-472a-b738-7ec7b9a8d571" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-25T12:06:23+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="691caf34-ff31-441e-a842-5e227f86c57a" startPosition="14" endPosition="51"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-25T12:06:21+02:00"
+                                modifiedDateTime="2025-08-25T12:06:21+02:00">
+                <Coding guid="d6c28fac-260c-48af-8962-cfb7af071330" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-25T12:06:21+02:00">
+                    <CodeRef targetGUID="9fa9c0d9-55f3-4103-bf0f-3b1feaff3454"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="964ae6c0-2784-42e6-8f5c-46ed6f7319f2" startPosition="84" endPosition="86"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-25T12:06:35+02:00"
+                                modifiedDateTime="2025-08-25T12:06:35+02:00">
+                <Coding guid="3615abfb-e715-4933-b2cf-b4c81a9ed025" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-25T12:06:35+02:00">
+                    <CodeRef targetGUID="9fa9c0e3-fb45-4784-ad60-aee6a88701cd"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="990440ad-d0b6-4b07-a45d-c1e373c8394b" startPosition="87" endPosition="96"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-25T12:06:31+02:00"
+                                modifiedDateTime="2025-08-25T12:06:31+02:00">
+                <Coding guid="a47b5b98-7f1d-488e-bc56-7fe67afc1daa" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-25T12:06:31+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="b5edc29a-63eb-4407-8826-01bf191b266a" startPosition="75" endPosition="83"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-25T12:06:28+02:00"
+                                modifiedDateTime="2025-08-25T12:06:28+02:00">
+                <Coding guid="a5ba50bd-417f-4dc2-a6b3-50f3e2719a34" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-25T12:06:28+02:00">
+                    <CodeRef targetGUID="9fa9c0d9-55f3-4103-bf0f-3b1feaff3454"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="be7c59bf-fd38-47aa-8390-82cdebbaa6ba" startPosition="97" endPosition="107"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-25T12:06:38+02:00"
+                                modifiedDateTime="2025-08-25T12:06:38+02:00">
+                <Coding guid="b2e4dea5-368e-44a9-8fd8-b654ac9b8e34" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-25T12:06:38+02:00">
+                    <CodeRef targetGUID="9fa9c0d9-55f3-4103-bf0f-3b1feaff3454"/>
+                </Coding>
+            </PlainTextSelection>
+        </TextSource>
+        <TextSource guid="c2ee9505-0d1d-4c70-acf0-66f0ef8e2bd2" name="NewDocument_1756292052075.txt"
+                    plainTextPath="internal://sources/c2ee9505-0d1d-4c70-acf0-66f0ef8e2bd2.txt"
+                    creationDateTime="2025-08-27T12:54:13+02:00" modifiedDateTime="2025-08-27T12:54:19+02:00"
+                    creatingUserId="27132add-e1f0-4662-89e3-31726035e9d4"/>
+        <TextSource guid="c70c0308-2b78-4c43-8c9e-fd2210f7f9f9" name="mooo.txt"
+                    plainTextPath="internal://sources/c70c0308-2b78-4c43-8c9e-fd2210f7f9f9.txt"
+                    creationDateTime="2025-08-25T10:20:35+02:00" modifiedDateTime="2025-08-27T08:36:58+02:00"
+                    creatingUserId="27132add-e1f0-4662-89e3-31726035e9d4">
+            <PlainTextSelection guid="08399824-bea9-415e-bafc-6a5dcd304f8d" startPosition="551" endPosition="561"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:58+02:00"
+                                modifiedDateTime="2025-08-27T08:37:58+02:00">
+                <Coding guid="deb2cbc8-6367-454a-8fa6-b28257a9c06c" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:58+02:00">
+                    <CodeRef targetGUID="9fa9c0e3-fb45-4784-ad60-aee6a88701cd"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="742bde9d-e291-46b2-8fa3-226eef7fa1dd" startPosition="445" endPosition="451"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:49+02:00"
+                                modifiedDateTime="2025-08-27T08:37:49+02:00">
+                <Coding guid="4a0fcb71-20fa-4429-8f8d-84f56fb3b666" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:49+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="77db6068-a666-40e4-8a56-65bc930ece45" startPosition="405" endPosition="412"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:46+02:00"
+                                modifiedDateTime="2025-08-27T08:37:46+02:00">
+                <Coding guid="c3466cba-f5a1-475a-822c-b48bafa3032a" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:46+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="7e00fecb-3e6c-4d8d-b3f0-ba9da324269a" startPosition="129" endPosition="135"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:25+02:00"
+                                modifiedDateTime="2025-08-27T08:37:25+02:00">
+                <Coding guid="ca17e748-e798-437d-a232-7edd0db22fdf" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:25+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="87414241-28f7-4e0f-8a74-d158ce0cf97b" startPosition="566" endPosition="577"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:38:00+02:00"
+                                modifiedDateTime="2025-08-27T08:38:00+02:00">
+                <Coding guid="70a8b883-0c30-4a43-95eb-28c77ac880d4" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:38:00+02:00">
+                    <CodeRef targetGUID="9fa9c0e3-fb45-4784-ad60-aee6a88701cd"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="8b4d3644-7400-4e5d-9469-7ef125a91613" startPosition="288" endPosition="297"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:30+02:00"
+                                modifiedDateTime="2025-08-27T08:37:30+02:00">
+                <Coding guid="a06bac80-d598-4fa0-98ab-d48c7b3ca600" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:30+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="8b57475d-f1a9-46a8-b318-5583aa106e07" startPosition="508" endPosition="526"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:52+02:00"
+                                modifiedDateTime="2025-08-27T08:37:52+02:00">
+                <Coding guid="156abc53-1da1-496e-b98a-61f8a10c1feb" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:52+02:00">
+                    <CodeRef targetGUID="9fa9c0d9-55f3-4103-bf0f-3b1feaff3454"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="8bed2a00-6db7-4adf-ab3e-912de2136e66" startPosition="343" endPosition="348"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:34+02:00"
+                                modifiedDateTime="2025-08-27T08:37:34+02:00">
+                <Coding guid="fccf3cae-7e86-491a-b40e-e61b91f8694e" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:34+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="9919f4fa-dbb2-4de3-9c73-76847ce7f3da" startPosition="4" endPosition="13"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:13+02:00"
+                                modifiedDateTime="2025-08-27T08:37:13+02:00">
+                <Coding guid="29320faf-0999-4391-a7ee-4d472f2126d0" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:13+02:00">
+                    <CodeRef targetGUID="9fa9c0d9-55f3-4103-bf0f-3b1feaff3454"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="9b6178d9-4551-4aab-8d72-997fe54203db" startPosition="466" endPosition="476"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:51+02:00"
+                                modifiedDateTime="2025-08-27T08:37:51+02:00">
+                <Coding guid="fe06e0a5-f4c6-4376-8d75-71e888a1f63e" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:51+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="a7bf79ae-d41e-4c1d-b266-0723e0d967fa" startPosition="383" endPosition="390"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:40+02:00"
+                                modifiedDateTime="2025-08-27T08:37:40+02:00">
+                <Coding guid="1bb5a481-ba8a-495e-bd6a-8c3e7d1b9278" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:40+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="b1afbfd3-d103-4a84-b93c-798461c9cffc" startPosition="54" endPosition="73"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:16+02:00"
+                                modifiedDateTime="2025-08-27T08:37:16+02:00">
+                <Coding guid="7e84b60b-413e-425b-b900-c7133a4dce54" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:16+02:00">
+                    <CodeRef targetGUID="9fa9c0de-c167-4f10-84f8-d41067c6b680"/>
+                </Coding>
+            </PlainTextSelection>
+            <PlainTextSelection guid="d0187a4d-7eb0-450d-a830-d6cb8edfa64c" startPosition="88" endPosition="102"
+                                creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                                creationDateTime="2025-08-27T08:37:22+02:00"
+                                modifiedDateTime="2025-08-27T08:37:22+02:00">
+                <Coding guid="ac8519f4-67c5-4aac-9f8f-d3080af93a74" creatingUser="27132add-e1f0-4662-89e3-31726035e9d4"
+                        creationDateTime="2025-08-27T08:37:22+02:00">
+                    <CodeRef targetGUID="9fa9c0e3-fb45-4784-ad60-aee6a88701cd"/>
+                </Coding>
+            </PlainTextSelection>
+        </TextSource>
+        <TextSource guid="d623f33e-c2f0-4776-b9cc-11ce89dd95f6" name="a_day_in_the_life_of_qdi.rtf"
+                    richTextPath="internal://sources/d623f33e-c2f0-4776-b9cc-11ce89dd95f6.rtf"
+                    creationDateTime="2025-09-05T10:28:58+02:00" modifiedDateTime="2025-09-05T10:28:58+02:00"
+                    creatingUserId="27132add-e1f0-4662-89e3-31726035e9d4"/>
+    </Sources>
+    <Codebook name="Project 1 Codebook" description="" creatingUserId="27132add-e1f0-4662-89e3-31726035e9d4"
+              creationDateTime="2025-08-18T12:52:12+02:00" modifiedDateTime="2025-08-18T13:08:51+02:00">
+        <Code guid="9fa9c0d9-55f3-4103-bf0f-3b1feaff3454" name="Moo Baz Long Code Title" description="" isCodable="true"
+              color="#f885b9"/>
+        <Code guid="9fa9c0de-c167-4f10-84f8-d41067c6b680" name="Foo" description="" isCodable="true" color="#e2dcf7">
+            <Code guid="9fcddeb2-b369-4370-9288-be9a299505b4" name="Foo2" description="" isCodable="true"
+                  color="#e2dcf7"/>
+        </Code>
+        <Code guid="9fa9c0e3-fb45-4784-ad60-aee6a88701cd" name="Bar" description="" isCodable="true" color="#80fff7"/>
+        <Code guid="9fcddeb2-b369-4370-9288-be9a299505b4" name="Foo2" description="" isCodable="true" color="#e2dcf7"/>
+    </Codebook>
+</Project>

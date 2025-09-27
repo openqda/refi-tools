@@ -1,0 +1,48 @@
+{
+	"name": "@openqda/refi-validator",
+	"version": "1.0.0",
+	"description": "Validator for REFI compliance",
+	"main": "node/main.mjs",
+	"type": "module",
+	"exports": {
+		"import": {
+			"default": "src/index.mjs"
+		}
+	},
+	"scripts": {
+		"validate": "node ./validate.mjs",
+		"test": "PORT=3000 NODE_ENV=test ./node_modules/.bin/mocha 'src/**/*tests.js'",
+		"test-debug": "NODE_ENV=test ./node_modules/.bin/mocha  --inspect --debug-brk 'src/**/*tests.js'",
+		"test:watch": "NODE_ENV=test ./node_modules/.bin/mocha --watch 'src/**/*test.js'",
+		"test:coverage": "NODE_ENV=test nyc --reporter=html --reporter=lcov --reporter=text ./node_modules/.bin/mocha 'src/**/*tests.js'",
+		"code:check": "npx @biomejs/biome check",
+		"code:write": "npx @biomejs/biome check --write"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/openqda/refi-tools.git"
+	},
+	"keywords": [
+		"refi",
+		"caqdas",
+		"qda"
+	],
+	"engines": {
+		"node": ">=18"
+	},
+	"author": "Jan Kster <jkuester@uni-bremen.de>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/openqda/refi-tools/issues"
+	},
+	"homepage": "https://github.com/openqda/refi-tools#readme",
+	"dependencies": {
+		"libxml2-wasm": "^0.6.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.3",
+		"chai": "^6.0.1",
+		"mocha": "^11.7.2",
+		"sinon": "^21.0.0"
+	}
+}
