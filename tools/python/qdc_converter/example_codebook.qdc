@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBook xmlns="urn:QDA-XML:codebook:1.0"
+          origin="MastodonMoodBoard">
+    <Codes>
+        <Code guid="c001"
+              name="Negativ/Aufgeregt"
+              isCodable="true"
+              color="#e57373">
+            <Description>
+                All emotions with negative valence and positive arousal.
+            </Description>
+            <Code guid="c21"
+                  name="Rage"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c20"
+                  name="Anger"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c32"
+                  name="Overwhelm"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c25"
+                  name="Fear"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c22"
+                  name="Frustration"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c26"
+                  name="Worry"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c34"
+                  name="Annoyance"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c38"
+                  name="Hurt (personally offended)"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c39"
+                  name="Rejection / Antipathy"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c29"
+                  name="Shame"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c30"
+                  name="Guilt"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c27"
+                  name="Disgust"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c28"
+                  name="Envy"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c35"
+                  name="Mistrust"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+            <Code guid="c31"
+                  name="Insecurity"
+                  isCodable="true"
+                  color="#c95858">
+            </Code>
+        </Code>
+        <Code guid="c002"
+              name="Negativ/Ruhig"
+              isCodable="true"
+              color="#7eb5e8">
+            <Description>
+                All emotions with negative valence and negative arousal.
+            </Description>
+            <Code guid="c36"
+                  name="Powerlessness"
+                  isCodable="true"
+                  color="#5290cb">
+            </Code>
+            <Code guid="c24"
+                  name="Sadness"
+                  isCodable="true"
+                  color="#5290cb">
+            </Code>
+            <Code guid="c23"
+                  name="Disappointment"
+                  isCodable="true"
+                  color="#5290cb">
+            </Code>
+            <Code guid="c37"
+                  name="Cynicism / Resignation"
+                  isCodable="true"
+                  color="#5290cb">
+            </Code>
+            <Code guid="c33"
+                  name="Boredom"
+                  isCodable="true"
+                  color="#5290cb">
+            </Code>
+        </Code>
+        <Code guid="c003"
+              name="Positiv/Aufgeregt"
+              isCodable="true"
+              color="#a5c96b">
+            <Description>
+                All emotions with positive valence and positive arousal.
+            </Description>
+            <Code guid="c14"
+                  name="Humor / Amusement"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c0"
+                  name="Joy"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c7"
+                  name="Awe"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c8"
+                  name="Admiration"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c18"
+                  name="Optimism"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c4"
+                  name="Inspiration"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c5"
+                  name="Motivation"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c16"
+                  name="Interest (cognitive-emotional)"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c6"
+                  name="Curiosity"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c13"
+                  name="Pride (including vicarious)"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+            <Code guid="c3"
+                  name="Hope"
+                  isCodable="true"
+                  color="#87b046">
+            </Code>
+        </Code>
+        <Code guid="c004"
+              name="Positiv/Ruhig"
+              isCodable="true"
+              color="#f2a848">
+            <Description>
+                All emotions with positive valence and negative arousal.
+            </Description>
+            <Code guid="c19"
+                  name="Validation (feeling understood)"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+            <Code guid="c17"
+                  name="Empathy (compassionate warmth)"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+            <Code guid="c10"
+                  name="Sense of belonging"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+            <Code guid="c9"
+                  name="Gratitude"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+            <Code guid="c11"
+                  name="Trust"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+            <Code guid="c2"
+                  name="Relief"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+            <Code guid="c12"
+                  name="Safety"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+            <Code guid="c1"
+                  name="Contentment"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+            <Code guid="c15"
+                  name="Serenity"
+                  isCodable="true"
+                  color="#d98d2b">
+            </Code>
+        </Code>
+    </Codes>
+</CodeBook>
